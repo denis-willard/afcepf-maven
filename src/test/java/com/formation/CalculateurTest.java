@@ -23,4 +23,9 @@ public class CalculateurTest {
 	public void multTest() {
 		assertEquals(42, calcul.mult(7, 6), "Mult is not OK");
 	}
+
+	@Test
+	public void divTest() {
+		assertEquals(42, calcul.div(84, 2), "Div is not OK");
+	}
 }
